@@ -24,7 +24,7 @@ export const Home = () => {
               to="/contact"
               className="bg-purple-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-[#522424] transition duration-300"
             >
-              Har du frågor? Kontakta mig!
+              Har du frågor? Kontakta oss!
             </Link>
           </div>
         </div>

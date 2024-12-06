@@ -21,7 +21,7 @@ export default function Footer() {
           {/* Links */}
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link to="/about" className="hover:underline">
-              Om Mig
+              Om Oss
             </Link>
             <Link to="/services" className="hover:underline">
               Tjänster
@@ -34,7 +34,7 @@ export default function Footer() {
 
         {/* Center Section - Social Media */}
         <div className="flex space-x-6 mt-6 md:mt-0">
-          <a href="https://www.facebook.com" aria-label="Facebook" className="hover:text-gray-400">
+          <a href="https://www.facebook.com/p/Plantering-Thai-Massage-100083172946605/" aria-label="Facebook" className="hover:text-gray-400">
             <FaFacebook size={24} />
           </a>
         </div>

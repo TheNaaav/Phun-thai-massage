@@ -20,7 +20,7 @@ export default function Contact() {
         </div>
         <div className="flex justify-center items-center mb-6">
           <a 
-            href="https://www.facebook.com/"
+            href="https://www.facebook.com/p/Plantering-Thai-Massage-100083172946605/"
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center text-blue-600 hover:underline text-lg md:text-xl"
