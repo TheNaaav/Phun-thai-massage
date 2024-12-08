@@ -1,14 +1,9 @@
 import { servicesList, prices } from '../data';
-import { Link } from 'react-router-dom';
+
 
 export const Services = () => {
   return (
-    <div className=" h-full text-zinc-50"
-      style={{
-        backgroundImage: "url('/images/lotusbg.png')", 
-        backgroundSize: 'cover',
-        backgroundPosition: 'center top',
-      }}>
+    <div>
       <div className="container mx-auto px-4 py-20">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">
           Våra Tjänster
@@ -59,19 +54,6 @@ export const Services = () => {
                 <p className="text-center font-bold">{price.amount} kr</p>
               </div>
             ))}
-          </div>
-        </div>
-        <div className="text-center mt-12">
-          <p className="mb-4 font-bold">
-            Vill du veta mer om våra erfarenhet, eller är du redo att boka tid?
-          </p>
-          <div className="flex justify-center gap-4">
-            <Link to="/about" className="inline-block bg-purple-500 py-2 px-4 rounded hover:bg-purple-800 transition-colors duration-300">
-              Läs mer om oss
-            </Link>
-            <Link to="/contact" className="inline-block bg-purple-500 py-2 px-4 rounded hover:bg-purple-800 transition-colors duration-300">
-              Kontakta oss
-            </Link>
           </div>
         </div>
       </div>

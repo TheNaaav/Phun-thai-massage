@@ -2,12 +2,7 @@ import { FaFacebook } from 'react-icons/fa';
 
 export default function Contact() {
   return (
-    <div className="h-full text-zinc-300"
-    style={{
-      backgroundImage: "url('/images/lotusbg.png')", 
-      backgroundSize: 'cover',
-      backgroundPosition: 'center top',
-    }}>
+    <div>
       <div className="flex-grow container mx-auto px-4 py-20">
         <h2 className="text-3xl md:text-3xl font-bold text-center mb-8">Kontakta Oss</h2>
         <p className="text-center mb-6 font-bold">
@@ -33,7 +28,7 @@ export default function Contact() {
          {/* Address Section */}
         <div className="text-center mb-8">
           <h3 className="text-2xl font-bold mb-4">Vi finns på detta Adress</h3>
-          <p className="text-lg font-bold">Planteringsvägen 95, 252 30 Helsingborg</p>
+          <p className="text-lg font-bold">Planteringsvägen 95, 252 30 Helsingborg </p>
         </div>
 
           {/* Google Maps Section */}

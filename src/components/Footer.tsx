@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { FaFacebook } from 'react-icons/fa';
 
 export default function Footer() {
@@ -20,15 +19,15 @@ export default function Footer() {
 
           {/* Links */}
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <Link to="/about" className="hover:underline">
+            <a href="/about" className="hover:underline">
               Om Oss
-            </Link>
-            <Link to="/services" className="hover:underline">
+            </a>
+            <a href="/services" className="hover:underline">
               Tjänster
-            </Link>
-            <Link to="/contact" className="hover:underline">
+            </a>
+            <a href="/contact" className="hover:underline">
               Kontakt
-            </Link>
+            </a>
           </div>
         </div>
 

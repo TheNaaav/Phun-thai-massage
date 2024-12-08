@@ -1,33 +1,28 @@
 import { useState } from 'react';
 
 export default function About() {
-  const [isModalOpen, setIsModalOpen] = useState(false); // State to manage modal visibility
-
+  const [isModalOpen, setIsModalOpen] = useState(false); 
   const openModal = () => setIsModalOpen(true);
   const closeModal = () => setIsModalOpen(false);
   
   
   return (
-      <div 
-        className="h-full text-black bg-purple-300"
-      >
+      <div >
         <div className="flex-grow container mx-auto px-2 py-10">
           <h2 className="text-3xl md:text-5xl font-bold text-center mb-8">
             Om oss
           </h2>
-  
           {/* Vår Bakgrund */}
           <div className="mb-8">
             <h3 className="text-xl font-bold text-center mb-4">Vår Bakgrund</h3>
-            <p className="text-center text-sm md:text-base">
-              Vi <strong>Phun Thai Massage </strong> finns i Planteringsvägen 95 i Helsingborg, där vi erbjuder samma professionella behandlingar.
-            </p>
+            <h2 className="text-center text-sm md:text-base font-bold">
+              Vi på <strong>Phun Thai Massage</strong> finns nu på två adresser i Helsingborg! Vår första salong ligger på Planteringsvägen 95, där vi erbjuder samma professionella behandlingar som alltid. Vi har också utökat med en ny, mer centralt på Thure Röings gata 4.
+            </h2>
           </div>
-  
           {/* Erfarenhet */}
           <div>
             <h3 className="text-xl font-bold text-center mb-4">Utbildning & Erfarenhet</h3>
-            <p className="text-center text-sm md:text-base">
+            <p className="text-center text-sm md:text-base font-bold">
               Har arbetat som massör sedan 2010 och har utvecklat en djup förståelse för olika tekniker och behandlingar som främjar hälsa och välbefinnande.
             </p>
           </div>
